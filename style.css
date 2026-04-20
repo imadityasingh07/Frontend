@@ -1,30 +1,32 @@
-body{
+body {
   margin: 0;
   font-family: Arial;
 }
-nav{
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: black;
   padding: 10px 20px;
 }
-.logo{ 
+
+.logo {
   color: red;
   font-size: 20px;
 }
 
-ul{
+ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-ul li a{
-color: chartreuse;
-text-decoration: none;
+ul li a {
+  color: chartreuse;
+  text-decoration: none;
 }
 
-ul li a:hover{
+ul li a:hover {
   color: aqua;
 }
